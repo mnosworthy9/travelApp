@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "21559621720",
+    "firebase_url": "https://travelapp-3780d.firebaseio.com",
+    "project_id": "travelapp-3780d",
+    "storage_bucket": "travelapp-3780d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21559621720:android:b13e6f655492f1b5f7322d",
+        "android_client_info": {
+          "package_name": "uk.ac.napier.set08114.travelapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21559621720-csjj27qtgfd0sd34a75qr8ncm15ueu6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyn-qaG9Spig0FlyxvGPnhNaqnFBcYm5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21559621720-csjj27qtgfd0sd34a75qr8ncm15ueu6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
