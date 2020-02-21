@@ -5,18 +5,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.ProgressBar;
 import android.widget.RadioButton;
 import android.util.Log;
-import android.widget.Toast;
 
 
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String TAG = MainActivity.class.getSimpleName();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,16 +40,8 @@ public class MainActivity extends AppCompatActivity {
             ImageView iv = findViewById(R.id.imageView);
             //ProgressBar progressBar = findViewById(R.id.progressBar);
             //progressBar.setVisibility(View.VISIBLE);
-            Log.d(TAG, "de-bugger, a button has been clicked");
-            /*if (radioGroupClick.equals(true)){
-                try {
-                    Thread.sleep(7500);
-                    Toast.makeText(getBaseContext(),"Done", Toast.LENGTH_LONG).show();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                    Toast.makeText(getBaseContext(),"Error", Toast.LENGTH_LONG).show();
-                }
-            }*/
+            Log.d("3.14.15","de-bugger, a button has been clicked");
+
             if (rb.getText().equals("Hopewell Rocks")) {
                 iv.setImageResource(R.drawable.hopewell_rocks);
                 Intent activityA = new Intent(MainActivity.this, hopewell_rocks.class);

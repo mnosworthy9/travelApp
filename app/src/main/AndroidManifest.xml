@@ -4,6 +4,8 @@
     package="uk.ac.napier.set08114.travelapp">
 
     <application
+        android:largeHeap="true"
+        android:hardwareAccelerated="false"
         tools:replace="android:appComponentFactory"
         android:appComponentFactory="whateverString"
         android:allowBackup="true"

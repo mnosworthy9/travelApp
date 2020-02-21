@@ -14,7 +14,7 @@ public class hopewell_rocks extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hopewell_rocks);
-        ListView attractionDetails = (ListView) findViewById(R.id.attraction_list);
+        ListView attractionDetails = findViewById(R.id.attraction_list);
 
         Toast.makeText(getBaseContext(), "Travel to Hopewell Rocks", Toast.LENGTH_LONG).show();
         //Navigation back is via phones back button
