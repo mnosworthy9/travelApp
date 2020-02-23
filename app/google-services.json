@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "21559621720-6ck7tjm8dmbilksumn92vtpi87sj83fo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uk.ac.napier.set08114.travelapp",
+            "certificate_hash": "55e5f560256171265d5d47fa675780b4557ca8a6"
+          }
+        },
+        {
           "client_id": "21559621720-csjj27qtgfd0sd34a75qr8ncm15ueu6b.apps.googleusercontent.com",
           "client_type": 3
         }

@@ -2,42 +2,30 @@ package uk.ac.napier.set08114.travelapp;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.IgnoreExtraProperties;
+import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FirebaseFirestore;
+
+import java.util.HashMap;
+import java.util.Map;
 
 
 public class moraine_lake extends AppCompatActivity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_moraine_lake);
-        ListView attractionDetails = (ListView) findViewById(R.id.attraction_list);
-
-        Toast.makeText(getBaseContext(), "Travel to Moraine Lake", Toast.LENGTH_LONG).show();
-        //Navigation back is via phones back button
-        final String[] attractionDetailsArray = new String[]{
-                "Located in Canada",
-                "Fun fact 2",
-                "Fun fact 3",
-                "4",
-                "5",
-                "6"};
-
-        final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-                android.R.layout.simple_list_item_1,
-                android.R.id.text1,
-                attractionDetailsArray);
-
-        attractionDetails.setAdapter(adapter);
-        String stringToReturn = "Message back from Activity A";
-        Intent returnIntent = new Intent();
-        returnIntent.putExtra("String", stringToReturn);
-        setResult(1, returnIntent);
-
-
-    }
 }

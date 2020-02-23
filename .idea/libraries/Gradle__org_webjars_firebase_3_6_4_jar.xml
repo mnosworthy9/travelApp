@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.webjars:firebase:3.6.4@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.webjars/firebase/3.6.4/991be2718162569135e4b8647327c3e59990d51f/firebase-3.6.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.webjars/firebase/3.6.4/dc15f2a40f8cbda478eac19b82303fc5d40f8355/firebase-3.6.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
